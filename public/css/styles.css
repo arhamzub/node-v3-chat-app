@@ -39,7 +39,7 @@ input {
 
 button {
     cursor: pointer;
-    padding: 12px;
+    
     background: #7C5CBF;
     border: none;
     color: white;
@@ -92,8 +92,8 @@ button:disabled {
 .chat__sidebar {
     height: 100vh;
     color: white;
-    background: #333744;
-    width: 225px;
+    background: black;
+    width: 30px;
     overflow-y: scroll
 }
 
@@ -139,7 +139,8 @@ button:disabled {
     display: flex;
     flex-shrink: 0;
     margin-top: 16px;
-    padding: 24px;
+    margin-right: 20px;
+    /* padding: 24px; */
 }
 
 .compose form {
@@ -158,6 +159,7 @@ button:disabled {
 
 .compose button {
     font-size: 14px;
+    
 }
 
 /* Chat Sidebar Styles */
